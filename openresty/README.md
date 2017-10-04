@@ -3,7 +3,8 @@
 Dockerfile for nginx with VTS and OpenResty
 
 This is a modified version of the Alpine Dockerfile from [openresty/docker-openresty](https://github.com/openresty/docker-openresty).
-Not all modules are included. Mail modules are not included.
+Please see that page for instructions on using OpenResty.
+NB: Not all modules are included. Mail modules are not included.
 
 
 Copyright & License
