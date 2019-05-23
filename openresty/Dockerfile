@@ -2,15 +2,15 @@
 # https://github.com/openresty/docker-openresty
 
 ARG RESTY_IMAGE_BASE="alpine"
-ARG RESTY_IMAGE_TAG="3.8"
+ARG RESTY_IMAGE_TAG="3.9.4"
 
 FROM ${RESTY_IMAGE_BASE}:${RESTY_IMAGE_TAG}
 
 LABEL maintainer="Vlad Vasiliu <vladvasiliun@yahoo.fr>"
 
 # Docker Build Arguments
-ARG RESTY_VERSION="1.13.6.2"
-ARG RESTY_OPENSSL_VERSION="1.0.2p"
+ARG RESTY_VERSION="1.15.8.1"
+ARG RESTY_OPENSSL_VERSION="1.0.2r"
 ARG RESTY_PCRE_VERSION="8.42"
 ARG RESTY_VTS_VERSION="v0.1.18"
 ARG RESTY_J="1"
